@@ -1,0 +1,349 @@
+{
+  "generatedAt": "2026-10-08T06:47:19.872621+00:00",
+  "skills": [
+    {
+      "name": "agent-orchestration",
+      "description": "Divide a large investigation among focused research workers and combine their results. Use when several independent questions can be researched separately.",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "agent-orchestration",
+      "path": "agent-orchestration/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "game-dev",
+      "description": "Build playable browser games (Babylon.js) end-to-end using the godogen production pipeline adapted to Manus. Use when the user wants to make, generate, rebuild, or substantially extend a web/browser game from a natural-language brief. Runs godogen's staged workflow (visual target, risk decomposition, scaffold, architecture, asset generation, implementation, visual verification) but hosts the game in a Manus WebDev project, replaces godogen's paid art CLIs (Gemini/Grok/Tripo3D) with Manus built-i",
+      "license": "Complete terms in LICENSE.txt",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "game-dev",
+      "path": "game-dev/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "humanizer",
+      "description": "|",
+      "license": "MIT",
+      "version": "3.1.0",
+      "author": "",
+      "tags": "",
+      "pack": "humanizer-main",
+      "path": "humanizer-main/humanizer-main/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "output-control",
+      "description": "Control the length, order, format, and stopping point of long answers. Use when the user requests sections, continuation, detailed output, or a specific format.",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "output-control",
+      "path": "output-control/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "neon",
+      "description": ">-",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "plugin-marketplace-main",
+      "path": "plugin-marketplace-main/plugin-marketplace-main/external_plugins/neon/skills/neon/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "neon-postgres",
+      "description": ">-",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "plugin-marketplace-main",
+      "path": "plugin-marketplace-main/plugin-marketplace-main/external_plugins/neon/skills/neon-postgres/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "neon-postgres-branches",
+      "description": ">-",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "plugin-marketplace-main",
+      "path": "plugin-marketplace-main/plugin-marketplace-main/external_plugins/neon/skills/neon-postgres-branches/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/brainstorming/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "diagnosing-superpowers",
+      "description": "Use when a superpowers session went wrong and your human partner wants to know why \u2014 repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" \u2014 or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/diagnosing-superpowers/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/dispatching-parallel-agents/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "executing-plans",
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself \u2014 your human partner chose inline execution, or no subagent tool is available",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/executing-plans/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/finishing-a-development-branch/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "receiving-code-review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/receiving-code-review/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/requesting-code-review/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/subagent-driven-development/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/systematic-debugging/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/test-driven-development/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "using-git-worktrees",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/using-git-worktrees/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/using-superpowers/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/verification-before-completion/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/writing-plans/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "writing-skills",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "superpowers-main",
+      "path": "superpowers-main/superpowers-main/skills/writing-skills/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    },
+    {
+      "name": "tool-use",
+      "description": "Describe and apply research tools in a traceable way. Use when a task involves files, searches, code review, calculations, or external services.",
+      "license": "unknown",
+      "version": "",
+      "author": "",
+      "tags": "",
+      "pack": "tool-use",
+      "path": "tool-use/SKILL.md",
+      "operational": true,
+      "family": "vault2-extracted"
+    }
+  ],
+  "packs": [
+    {
+      "name": "Scout_Grok-main",
+      "skillCount": 0,
+      "summary": "This repo is the bridge between the **Grok task automation** (which finds artist-hiring leads on non-Reddit platforms) and the **Scout iOS app**.",
+      "source": "drive-zip"
+    },
+    {
+      "name": "agent-orchestration",
+      "skillCount": 1,
+      "summary": "",
+      "source": "drive-zip"
+    },
+    {
+      "name": "awesome-agent-evolution-main",
+      "skillCount": 0,
+      "summary": "> AI Agent self-evolution, memory systems, autonomous self-improvement, and the infrastructure that powers them.",
+      "source": "drive-zip"
+    },
+    {
+      "name": "awesome-agent-skills-main",
+      "skillCount": 0,
+      "summary": "<a href=\"https://github.com/VoltAgent/voltagent\"> <img width=\"1500\" alt=\"claude-skills\" src=\"https://github.com/user-attachments/assets/a890e563-e999-4b1f-8ce1-20399b0574f8\" /> </a>",
+      "source": "drive-zip"
+    },
+    {
+      "name": "awesome-openclaw-skills-main",
+      "skillCount": 0,
+      "summary": "<div align=\"center\">",
+      "source": "drive-zip"
+    },
+    {
+      "name": "game-dev",
+      "skillCount": 1,
+      "summary": "",
+      "source": "drive-zip"
+    },
+    {
+      "name": "humanizer-main",
+      "skillCount": 1,
+      "summary": "[![GitHub stars](https://img.shields.io/github/stars/blader/humanizer?style=flat)](https://github.com/blader/humanizer/stargazers) [![skills.sh installs](https://skills.sh/b/blader/humanizer)](https://skills.sh/blader/humanizer)",
+      "source": "drive-zip"
+    },
+    {
+      "name": "output-control",
+      "skillCount": 1,
+      "summary": "",
+      "source": "drive-zip"
+    },
+    {
+      "name": "plugin-marketplace-main",
+      "skillCount": 3,
+      "summary": "The official catalog of plugins for Grok Build. This repo is an index that points at plugin sources so Grok Build can browse, install, and update them.",
+      "source": "drive-zip"
+    },
+    {
+      "name": "superpowers-main",
+      "skillCount": 15,
+      "summary": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+      "source": "drive-zip"
+    },
+    {
+      "name": "tool-use",
+      "skillCount": 1,
+      "summary": "",
+      "source": "drive-zip"
+    }
+  ]
+}

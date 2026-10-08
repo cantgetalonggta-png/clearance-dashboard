@@ -1,0 +1,29 @@
+{
+  "engineConfiguration": {
+    "mode": "LOCAL_DEVELOPER",
+    "description": "Local development configuration for Clearance pipeline. Does not disable system safety."
+  },
+  "governancePolicy": {
+    "assumeSecrets": false,
+    "strictLiteralParsing": true,
+    "neverInlineLeakedPrompts": true,
+    "neverInlineCredentials": true,
+    "publicRecordOnly": true
+  },
+  "dataHandling": {
+    "restrictedPatterns": [
+      "system_prompts_leaks",
+      "private_key",
+      "BEGIN RSA PRIVATE KEY",
+      "sk-",
+      "api_key="
+    ],
+    "treatment": "CATALOG_ONLY_FOR_RESTRICTED",
+    "skillIngest": "OPERATIONAL_PUBLIC_ONLY"
+  },
+  "clearance": {
+    "licenseAllowlistEnforced": true,
+    "copyleftDenied": true,
+    "generateNotices": true
+  }
+}

@@ -1,0 +1,511 @@
+========================================================================
+THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
+========================================================================
+
+This product contains third-party software components licensed under open-source
+and permissive licenses. The relevant software components, copyright holders,
+and license terms are acknowledged below.
+
+------------------------------------------------------------------------
+SUMMARY OF THIRD-PARTY DEPENDENCIES
+------------------------------------------------------------------------
+Package                          | Version      | SPDX License                
+------------------------------------------------------------------------------
+beautifulsoup4                   | 4.15.0       | MIT                         
+certifi                          | 2026.7.22    | MPL-2.0                     
+cffi                             | 2.1.1        | MIT-0                       
+charset-normalizer               | 3.5.1        | MIT                         
+click                            | 8.5.0        | BSD-3-Clause                
+coloredlogs                      | 15.0.1       | MIT                         
+cryptography                     | 50.0.1       | Apache-2.0 OR BSD-3-Clause  
+defusedxml                       | 0.7.1        | PSF-2.0                     
+et_xmlfile                       | 2.0.0        | MIT                         
+flatbuffers                      | 25.12.19     | Apache-2.0                  
+humanfriendly                    | 10.0         | MIT                         
+idna                             | 3.20         | BSD-3-Clause                
+lxml                             | 6.1.1        | BSD-3-Clause                
+magika                           | 0.6.3        | Apache-2.0                  
+markdownify                      | 1.2.3        | MIT                         
+markitdown                       | 0.1.7        | MIT                         
+mpmath                           | 1.3.0        | BSD-3-Clause                
+numpy                            | 2.2.6        | BSD-3-Clause                
+onnxruntime                      | 1.23.2       | MIT                         
+openpyxl                         | 3.1.5        | MIT                         
+packaging                        | 26.3         | Apache-2.0 OR BSD-2-Clause  
+pandas                           | 2.3.3        | BSD-3-Clause                
+pdf2image                        | 1.17.0       | MIT                         
+pdfminer.six                     | 20260107     | MIT                         
+pdfplumber                       | 0.11.10      | MIT                         
+pillow                           | 12.3.0       | MIT-CMU                     
+protobuf                         | 7.36.2       | BSD-3-Clause                
+pycparser                        | 3.0          | BSD-3-Clause                
+pypdf                            | 6.14.2       | BSD-3-Clause                
+pypdfium2                        | 5.12.1       | BSD-3-Clause OR Apache-2.0  
+pytesseract                      | 0.3.13       | Apache-2.0                  
+python-dateutil                  | 2.9.0.post0  | Apache-2.0 OR BSD-3-Clause  
+python-docx                      | 1.2.0        | MIT                         
+python-dotenv                    | 1.2.3        | BSD-3-Clause                
+python-pptx                      | 1.0.2        | MIT                         
+pytz                             | 2026.4       | MIT                         
+reportlab                        | 5.0.0        | BSD-3-Clause                
+requests                         | 2.34.2       | Apache-2.0                  
+six                              | 1.17.0       | MIT                         
+soupsieve                        | 2.10         | MIT                         
+sympy                            | 1.14.0       | BSD-3-Clause                
+typing_extensions                | 4.16.0       | PSF-2.0                     
+tzdata                           | 2026.4       | Apache-2.0                  
+urllib3                          | 2.8.0        | MIT                         
+xlsxwriter                       | 3.2.9        | BSD-3-Clause                
+
+========================================================================
+DETAILED COMPONENT NOTICES & LICENSES
+========================================================================
+
+------------------------------------------------------------------------
+Package: beautifulsoup4
+Version: 4.15.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: certifi
+Version: 2026.7.22
+License: MPL-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MPL-2.0 license. Full license text is available from the package author / SPDX registry for MPL-2.0.
+
+
+------------------------------------------------------------------------
+Package: cffi
+Version: 2.1.1
+License: MIT-0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT-0 license. Full license text is available from the package author / SPDX registry for MIT-0.
+
+
+------------------------------------------------------------------------
+Package: charset-normalizer
+Version: 3.5.1
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: click
+Version: 8.5.0
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: coloredlogs
+Version: 15.0.1
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: cryptography
+Version: 50.0.1
+License: Apache-2.0 OR BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 OR BSD-3-Clause license. Full license text is available from the package author / SPDX registry for Apache-2.0 OR BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: defusedxml
+Version: 0.7.1
+License: PSF-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the PSF-2.0 license. Full license text is available from the package author / SPDX registry for PSF-2.0.
+
+
+------------------------------------------------------------------------
+Package: et_xmlfile
+Version: 2.0.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: flatbuffers
+Version: 25.12.19
+License: Apache-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 license. Full license text is available from the package author / SPDX registry for Apache-2.0.
+
+
+------------------------------------------------------------------------
+Package: humanfriendly
+Version: 10.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: idna
+Version: 3.20
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: lxml
+Version: 6.1.1
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: magika
+Version: 0.6.3
+License: Apache-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 license. Full license text is available from the package author / SPDX registry for Apache-2.0.
+
+
+------------------------------------------------------------------------
+Package: markdownify
+Version: 1.2.3
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: markitdown
+Version: 0.1.7
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: mpmath
+Version: 1.3.0
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: numpy
+Version: 2.2.6
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: onnxruntime
+Version: 1.23.2
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: openpyxl
+Version: 3.1.5
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: packaging
+Version: 26.3
+License: Apache-2.0 OR BSD-2-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 OR BSD-2-Clause license. Full license text is available from the package author / SPDX registry for Apache-2.0 OR BSD-2-Clause.
+
+
+------------------------------------------------------------------------
+Package: pandas
+Version: 2.3.3
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: pdf2image
+Version: 1.17.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: pdfminer.six
+Version: 20260107
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: pdfplumber
+Version: 0.11.10
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: pillow
+Version: 12.3.0
+License: MIT-CMU
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT-CMU license. Full license text is available from the package author / SPDX registry for MIT-CMU.
+
+
+------------------------------------------------------------------------
+Package: protobuf
+Version: 7.36.2
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: pycparser
+Version: 3.0
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: pypdf
+Version: 6.14.2
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: pypdfium2
+Version: 5.12.1
+License: BSD-3-Clause OR Apache-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause OR Apache-2.0 license. Full license text is available from the package author / SPDX registry for BSD-3-Clause OR Apache-2.0.
+
+
+------------------------------------------------------------------------
+Package: pytesseract
+Version: 0.3.13
+License: Apache-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 license. Full license text is available from the package author / SPDX registry for Apache-2.0.
+
+
+------------------------------------------------------------------------
+Package: python-dateutil
+Version: 2.9.0.post0
+License: Apache-2.0 OR BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 OR BSD-3-Clause license. Full license text is available from the package author / SPDX registry for Apache-2.0 OR BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: python-docx
+Version: 1.2.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: python-dotenv
+Version: 1.2.3
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: python-pptx
+Version: 1.0.2
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: pytz
+Version: 2026.4
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: reportlab
+Version: 5.0.0
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: requests
+Version: 2.34.2
+License: Apache-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 license. Full license text is available from the package author / SPDX registry for Apache-2.0.
+
+
+------------------------------------------------------------------------
+Package: six
+Version: 1.17.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: soupsieve
+Version: 2.10
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: sympy
+Version: 1.14.0
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.
+
+
+------------------------------------------------------------------------
+Package: typing_extensions
+Version: 4.16.0
+License: PSF-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the PSF-2.0 license. Full license text is available from the package author / SPDX registry for PSF-2.0.
+
+
+------------------------------------------------------------------------
+Package: tzdata
+Version: 2026.4
+License: Apache-2.0
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the Apache-2.0 license. Full license text is available from the package author / SPDX registry for Apache-2.0.
+
+
+------------------------------------------------------------------------
+Package: urllib3
+Version: 2.8.0
+License: MIT
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the MIT license. Full license text is available from the package author / SPDX registry for MIT.
+
+
+------------------------------------------------------------------------
+Package: xlsxwriter
+Version: 3.2.9
+License: BSD-3-Clause
+Source: python
+
+------------------------------------------------------------------------
+This component is distributed under the BSD-3-Clause license. Full license text is available from the package author / SPDX registry for BSD-3-Clause.

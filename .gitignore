@@ -1,0 +1,23 @@
+.env
+.env.local
+
+# secrets
+.env
+.env.local
+.env.*.local
+
+# large local vault extracts (source of truth is Drive)
+artifacts/vault2/zips/
+artifacts/vault2/extracted/
+artifacts/**/*.tar.gz
+artifacts/**/*.zip
+__pycache__/
+*.pyc
+.vercel/
+node_modules/
+.grok/
+artifacts/.tmp/
+artifacts/**/*.log
+artifacts/vault/*.whl
+screenshots/*.png
+screenshots/*.json

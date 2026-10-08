@@ -1,0 +1,35 @@
+name: License Compliance
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  license-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install scan tools
+        run: pip install requests pip-licenses
+      - name: Run license enumeration (if network available)
+        run: |
+          if [ -f artifacts/unified_license_enum.py ]; then
+            python artifacts/unified_license_enum.py || true
+          fi
+          if [ -f compliance/integrate.py ]; then
+            python compliance/integrate.py
+          fi
+      - name: Compliance gate
+        run: python compliance/check_license_compliance.py
+      - name: Upload notices
+        uses: actions/upload-artifact@v4
+        with:
+          name: third-party-notices
+          path: |
+            artifacts/THIRD-PARTY-NOTICES.txt
+            public/THIRD-PARTY-NOTICES.txt
